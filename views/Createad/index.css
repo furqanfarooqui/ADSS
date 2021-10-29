@@ -1,0 +1,30 @@
+.body {
+    background-color:#282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    min-width: 50vh;
+  }
+  
+  .card{
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    border-radius: 2%;
+    max-width: auto;
+    border: solid;
+    border-color: black;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .button{
+    background-color: lightskyblue;
+  }

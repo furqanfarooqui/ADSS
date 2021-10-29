@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .just{
+    text-align: left;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #282c34;
+    padding: 10px;
+    min-height: auto;
+    min-width: 30vh;
+    max-width: auto;
+  }
+  
+  .grid-container > div {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+    border: 3px solid black;
+
+  }
+  
+  

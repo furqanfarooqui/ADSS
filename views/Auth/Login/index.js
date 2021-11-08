@@ -12,6 +12,9 @@ function Login() {
         <div className="login-content" style={{background:red }}>
 
             <div className="login-form">
+
+            <h1 class="form-title">Login</h1>
+            <h2>Hi</h2>
     
             <div className="input-content">
             <input

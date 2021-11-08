@@ -41,7 +41,6 @@ function Signup() {
                 type="password" 
                 className="form-input" 
                 placeholder="Write your password"/>
-
             </div>
             
             

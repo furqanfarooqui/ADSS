@@ -1,18 +1,8 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background:url(./img.jpg);
+  background-size: cover;
   min-height: 100vh;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -23,21 +13,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(10, 115, 236);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .body {
   background-color:none;
@@ -51,13 +29,15 @@
 
 .card{
   background-color: whitesmoke;
-  color: black;
+  color: rgb(5, 31, 85);
   display: flex;
-  padding: 10px 10px;
+  padding: 50px 50px;
   flex-direction: column;
-  border-radius: 2%;
+  border:5px solid rgb(48, 59, 92);
+  border-radius: 10%;
   max-width: auto;
   max-width: 50vh;
+  
 }
 
 *{
@@ -65,12 +45,40 @@
   padding: 0;
 }
 
-.url{
-    color: blue;
-    background-color: none;
-    border: none;
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
 }
 
-.button{
-  background-color: lightskyblue;
+button:hover {
+  background-color: #555e7d;
 }
+
+button:focus {
+  background-color: rgb(14, 233, 25);
+}
+
+button svg {
+  margin-right: 5px;
+}
+/* .login-content{
+  background:url(./img.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */

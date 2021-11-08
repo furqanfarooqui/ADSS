@@ -1,12 +1,65 @@
 .App {
-    text-align: center;
     background-color: #282c34;
     color: white;
     min-height: 100vh;
     min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-
+    position: relative;
   }
 
-  
+  .headder{
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+  }
+
+.footer{
+  background-color: #282c34;
+  padding: 10px;
+  text-align: bottom;
+}
+
+.user{
+  display: flex;
+  text-align: left;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: large;
+
+}
+
+.user:hover{
+  color:mediumblue;
+}
+
+.logout{
+  display: auto;
+  background-color: brown;
+  color: white;
+  text-align: right;
+  font-size: large;
+}
+
+.logout:hover{
+  color: red;
+  background-color: white;
+}
+
+.search{
+  height: 25px;
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.searchButton{
+  background-color: mediumblue;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.searchButton:hover{
+  background-color: white;
+  color: mediumblue;
+}

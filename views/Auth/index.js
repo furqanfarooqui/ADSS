@@ -21,7 +21,7 @@ function Auth( {updateUser} ) {
   const regUser = async () =>{
     try{
       const uid = await registerUser({email, password, fullName, age})
-      console.log("uid", uid)
+      // console.log("uid", uid)
       alert("Account successfully created")
       setScreen("login")
     }
@@ -33,7 +33,7 @@ function Auth( {updateUser} ) {
   const LoginUser = async() =>{
     try{
     const user = await loginUser(email, password)
-    console.log("user data from loginuser==>", user)
+    // console.log("user data from loginuser==>", user)
     updateUser(user)
     alert("Successfully Logged In")
     }

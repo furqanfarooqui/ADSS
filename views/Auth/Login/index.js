@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import reactDom from 'react-dom';
 import { loginUser } from '../../../config/firebase';
 
 function Login() {
@@ -8,11 +9,9 @@ function Login() {
     
 
     return (
-        <div className="login-content">
+        <div className="login-content" style={{background:red }}>
 
             <div className="login-form">
-
-            <h1 class="form-title">Login</h1>
     
             <div className="input-content">
             <input
@@ -26,7 +25,11 @@ function Login() {
             type="password" 
             className="form-input"
             placeholder="Write your password"/>
+            <input type="checkbox"
+            className="form-input"/>
+            
             </div>
+
             
             <button className="form-button" onClick={() => loginUser(email, password)}>Login</button>
             <a href="-" className="form-link">Forgot your password?</a><br/>

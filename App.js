@@ -12,13 +12,13 @@ function App() {
 
   return (
     <div className="App">
-      <header className="">
+      <div>
         { user ?
           <Dashboard user={user}/>
           :
           <Auth updateUser={updateUser}/>
         }        
-      </header>
+      </div>
     </div>
   );
 }

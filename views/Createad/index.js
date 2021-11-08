@@ -16,17 +16,14 @@ function CreateAd( {setAllPost, user} )  {
     createdAt: createdAt
   })
 
-  const submit = () =>{
-    console.log("During storage data from createpost", post.images.length)
-
-    storeData(post)
+  const submit = async () =>{
+    await storeData(post)
     setAllPost()
   }
 
   const onChangeValues = (key, e) =>{
       const value = key  === "images" ? e.target.files : e.target.value
       setPost({ ...post, [key]: value})
-      console.log("data from onchange", post)
   }
   
   //back to dashboard

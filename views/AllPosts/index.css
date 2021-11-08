@@ -16,10 +16,12 @@
     min-height: auto;
     min-width: 30vh;
     max-width: auto;
+ 
+    text-align: center;
   }
   
   .grid-container > div {
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.342);
     color: black;
     text-align: center;
     padding: 20px 0;
@@ -27,5 +29,4 @@
     border: 3px solid black;
 
   }
-  
   
